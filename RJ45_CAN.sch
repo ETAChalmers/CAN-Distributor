@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 11 11
 Title ""
 Date "2021-02-26"
 Rev "1.0"
@@ -31,10 +31,11 @@ AR Path="/603AFD7A/603AEB0B" Ref="J7"  Part="1"
 AR Path="/603AFD7C/603AEB0B" Ref="J8"  Part="1" 
 AR Path="/603AFD7E/603AEB0B" Ref="J9"  Part="1" 
 AR Path="/603AFD80/603AEB0B" Ref="J10"  Part="1" 
-F 0 "J6" H 5407 4367 50  0000 C CNN
+F 0 "J10" H 5407 4367 50  0000 C CNN
 F 1 "RJ45" H 5407 4276 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 5350 3725 50  0001 C CNN
-F 3 "~" V 5350 3725 50  0001 C CNN
+F 3 "https://www.farnell.com/cad/1749592.pdf" V 5350 3725 50  0001 C CNN
+F 4 "2135979" H 5350 3700 50  0001 C CNN "Farnell"
 	1    5350 3700
 	1    0    0    -1  
 $EndComp

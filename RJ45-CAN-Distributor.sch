@@ -76,12 +76,12 @@ $EndSheet
 Text Notes 1650 2200 0    79   ~ 0
 10x RJ45 Connectors
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 603B03C6
 P 6000 2850
-F 0 "R?" V 5793 2850 50  0000 C CNN
+F 0 "R1" V 5793 2850 50  0000 C CNN
 F 1 "120" V 5884 2850 50  0000 C CNN
-F 2 "" V 5930 2850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 5930 2850 50  0001 C CNN
 F 3 "~" H 6000 2850 50  0001 C CNN
 	1    6000 2850
 	0    1    1    0   
@@ -98,4 +98,8 @@ Text Notes 5250 2200 0    79   ~ 0
 Termination resistor
 Text Notes 5250 2350 0    50   ~ 0
 Only populated at the end nodes
+Text Notes 5250 4400 0    79   ~ 0
+For mounting outside
+Text Notes 5250 5050 0    50   ~ 0
+Fit into Maszczyk's Z-74T (KMz 74) enclosure:\n\n     https://www.maszczyk.pl/pokaz_produkt/z-74t.html\n\nUse Laird RJ45-FT Cable feedthru's to water proof the cable entries:\n\n     https://www.lairdconnect.com/rf-antennas/antenna-accessories/rj45-feed-thru
 $EndSCHEMATC

@@ -1,0 +1,3 @@
+Reference, Quantity, Value, Footprint, Datasheet, Farnell
+J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 ,10,"RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","https://www.farnell.com/cad/1749592.pdf","2135979"
+R1 ,1,"120","Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal","~"

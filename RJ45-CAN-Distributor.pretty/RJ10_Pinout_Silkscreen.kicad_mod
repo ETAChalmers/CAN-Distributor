@@ -1,8 +1,8 @@
-(module RJ40_Pinout_Silkscreen (layer F.Cu) (tedit 606777C8)
+(module RJ10_Pinout_Silkscreen (layer F.Cu) (tedit 60678CEA)
   (fp_text reference REF** (at 0 3) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value RJ40_Pinout_Silkscreen (at 0 1) (layer F.Fab) hide
+  (fp_text value RJ10_Pinout_Silkscreen (at 0 1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1 -0.2) (end 1 -3.2) (layer F.SilkS) (width 0.5))
@@ -34,7 +34,7 @@
   (fp_text user 4 (at -3 2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text user "RJ40 Pinout" (at 0 -12.5) (layer F.SilkS)
+  (fp_text user "RJ10 Pinout" (at 0 -12.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user 3 (at -1 2.5) (layer F.SilkS)

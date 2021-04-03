@@ -47,8 +47,6 @@ Wire Wire Line
 	5700 2850 5850 2850
 Wire Wire Line
 	6150 2850 6300 2850
-Text Notes 5250 2200 0    79   ~ 0
-Termination resistor
 Text Notes 5250 2350 0    50   ~ 0
 Only populated at the end nodes
 $Sheet
@@ -228,10 +226,12 @@ U 606A6FCD
 F0 "TP_CAN_3" 50
 F1 "TP_CAN9.sch" 50
 $EndSheet
+Text Notes 5250 2200 0    79   ~ 0
+Termination resistor
 $Sheet
-S 4850 6050 600  400 
-U 606A70AE
-F0 "TP_CAN_4" 50
-F1 "TP_CAN9.sch" 50
+S 2650 6050 600  400 
+U 606AA4F3
+F0 "RJ10_CAN_10" 50
+F1 "RJ10_CAN.sch" 50
 $EndSheet
 $EndSCHEMATC

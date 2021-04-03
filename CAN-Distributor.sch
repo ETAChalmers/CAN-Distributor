@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
-Title "RJ45 CAN Distributor"
+Title "CAN Distributor"
 Date "2021-02-26"
 Rev "1.0"
 Comp ""

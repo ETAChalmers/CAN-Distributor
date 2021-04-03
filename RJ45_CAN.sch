@@ -3,42 +3,16 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
-Title ""
-Date "2021-02-26"
-Rev "1.0"
+Sheet 3 16
+Title "CAN Distributor"
+Date "2021-04-03"
+Rev "2.0"
 Comp ""
-Comment1 ""
+Comment1 "Designed by: Erik Almbratt"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:RJ45 J?
-U 1 1 603AEB0B
-P 5350 3700
-AR Path="/603AEB0B" Ref="J?"  Part="1" 
-AR Path="/603ADFE4/603AEB0B" Ref="J1"  Part="1" 
-AR Path="/603AF7AF/603AEB0B" Ref="J?"  Part="1" 
-AR Path="/603AF7FC/603AEB0B" Ref="J2"  Part="1" 
-AR Path="/603AF88D/603AEB0B" Ref="J3"  Part="1" 
-AR Path="/603AF8B1/603AEB0B" Ref="J4"  Part="1" 
-AR Path="/603AF8D1/603AEB0B" Ref="J5"  Part="1" 
-AR Path="/603AF8E5/603AEB0B" Ref="J?"  Part="1" 
-AR Path="/603AF91C/603AEB0B" Ref="J?"  Part="1" 
-AR Path="/603AFD78/603AEB0B" Ref="J6"  Part="1" 
-AR Path="/603AFD7A/603AEB0B" Ref="J7"  Part="1" 
-AR Path="/603AFD7C/603AEB0B" Ref="J8"  Part="1" 
-AR Path="/603AFD7E/603AEB0B" Ref="J9"  Part="1" 
-AR Path="/603AFD80/603AEB0B" Ref="J10"  Part="1" 
-F 0 "J10" H 5407 4367 50  0000 C CNN
-F 1 "RJ45" H 5407 4276 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 5350 3725 50  0001 C CNN
-F 3 "https://www.farnell.com/cad/1749592.pdf" V 5350 3725 50  0001 C CNN
-F 4 "2135979" H 5350 3700 50  0001 C CNN "Farnell"
-	1    5350 3700
-	1    0    0    -1  
-$EndComp
 Text GLabel 6100 4000 2    50   Input ~ 0
 CAN_H
 Text GLabel 6100 3900 2    50   Input ~ 0
@@ -48,27 +22,48 @@ CAN_GND
 Text GLabel 6100 3400 2    50   Input ~ 0
 CAN_GND
 Text GLabel 6100 3500 2    50   Input ~ 0
-SHIELD
-Text GLabel 6100 3700 2    50   Input ~ 0
-Reserved1
-Text GLabel 6100 3600 2    50   Input ~ 0
-Reserved2
-Text GLabel 6100 3300 2    50   Input ~ 0
-CAN_V+
-Wire Wire Line
-	6100 3300 5750 3300
+CAN_SHLD
 Wire Wire Line
 	5750 3400 6100 3400
 Wire Wire Line
 	6100 3500 5750 3500
-Wire Wire Line
-	5750 3600 6100 3600
-Wire Wire Line
-	6100 3700 5750 3700
 Wire Wire Line
 	5750 3800 6100 3800
 Wire Wire Line
 	6100 3900 5750 3900
 Wire Wire Line
 	5750 4000 6100 4000
+NoConn ~ 5750 3300
+NoConn ~ 5750 3600
+NoConn ~ 5750 3700
+$Comp
+L Connector:RJ45_Shielded J2
+U 1 1 6068581B
+P 5350 3700
+AR Path="/603ADFE4/6068581B" Ref="J2"  Part="1" 
+AR Path="/603AF7FC/6068581B" Ref="J3"  Part="1" 
+AR Path="/603AF88D/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AF8B1/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AF8D1/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AFD78/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AFD7A/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AFD7C/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AFD7E/6068581B" Ref="J?"  Part="1" 
+AR Path="/603AFD80/6068581B" Ref="J?"  Part="1" 
+F 0 "J3" H 5350 4400 50  0000 C CNN
+F 1 "RJ45_Shielded" H 5350 4300 50  0000 C CNN
+F 2 "CAN-Distributor:RJHSE5480" V 5350 3725 50  0001 C CNN
+F 3 "https://www.farnell.com/cad/2360424.pdf" V 5350 3725 50  0001 C CNN
+F 4 "RJHSE5480" H 5350 3700 50  0001 C CNN "MPN"
+F 5 "3367703" H 5350 3700 50  0001 C CNN "Farnell"
+F 6 "AMPHENOL ICC" H 5350 3700 50  0001 C CNN "Manufacturer"
+	1    5350 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 4350 2    50   Input ~ 0
+CAN_SHLD
+Wire Wire Line
+	5350 4200 5350 4350
+Wire Wire Line
+	5350 4350 5500 4350
 $EndSCHEMATC

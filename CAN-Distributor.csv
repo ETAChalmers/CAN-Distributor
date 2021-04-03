@@ -1,3 +1,10 @@
-Reference, Quantity, Value, Footprint, Datasheet, Farnell
-J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 ,10,"RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","https://www.farnell.com/cad/1749592.pdf","2135979"
-R1 ,1,"120","Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal","~"
+Reference, Quantity, Value, Footprint, Datasheet, Farnell, MPN, Manufacturer, Description
+D1 ,1,"D_Schottky","Diode_SMD:D_SOD-123F","https://datasheet.octopart.com/S310FA-ON-Semiconductor-datasheet-137362515.pdf","2822559","S310FA","ON Semiconductor",""
+D2 ,1,"PWR_LED","Diode_SMD:D_0603_1608Metric","https://datasheet.octopart.com/SML-D12P8WT86-Rohm-datasheet-142144708.pdf","2687486","SML-D12P8WT86","ROHM",""
+F1 ,1,"2.5A","Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open","http://www.farnell.com/datasheets/2343287.pdf","1162740","0031.8201","SCHURTER","5x20 mm"
+J1 ,1,"2p Terminal Block","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~","~","~","~",""
+J13 J14 J15 ,3,"4p Terminal Block","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal","~","~","~","~",""
+J2 J3 ,2,"RJ45_Shielded","CAN-Distributor:RJHSE5480","https://www.farnell.com/cad/2360424.pdf","3367703","RJHSE5480","AMPHENOL ICC",""
+J4 J5 J6 J7 J8 J9 J10 J11 J12 J16 ,10,"RJ10","CAN-Distributor:TE_5520257-2","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5520257%7FB1%7Fpdf%7FEnglish%7FENG_CD_5520257_B1.pdf%7F5520257-2","1284339","5520257-2","TE Connectivity",""
+R1 ,1,"120","Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal","~","~","~","~",""
+U1 ,1,"CL25N8-G","Package_TO_SOT_SMD:SOT-89-3","http://www.farnell.com/datasheets/1849619.pdf","2448489","CL25N8-G","Microchip",""

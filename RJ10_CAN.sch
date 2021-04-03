@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 12 16
 Title "CAN Distributor"
 Date "2021-04-03"
 Rev "2.0"
@@ -30,19 +30,19 @@ Wire Wire Line
 Wire Wire Line
 	5900 3900 6250 3900
 $Comp
-L Connector:RJ10 J?
+L Connector:RJ10 J4
 U 1 1 6068392D
 P 5500 3900
-AR Path="/60682F6E/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069ABE0/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069AD3C/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069AD3E/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069AE53/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069B12F/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069B131/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069B133/6068392D" Ref="J?"  Part="1" 
-AR Path="/6069B135/6068392D" Ref="J?"  Part="1" 
-F 0 "J?" H 5557 4367 50  0000 C CNN
+AR Path="/60682F6E/6068392D" Ref="J4"  Part="1" 
+AR Path="/6069ABE0/6068392D" Ref="J5"  Part="1" 
+AR Path="/6069AD3C/6068392D" Ref="J6"  Part="1" 
+AR Path="/6069AD3E/6068392D" Ref="J7"  Part="1" 
+AR Path="/6069AE53/6068392D" Ref="J8"  Part="1" 
+AR Path="/6069B12F/6068392D" Ref="J9"  Part="1" 
+AR Path="/6069B131/6068392D" Ref="J10"  Part="1" 
+AR Path="/6069B133/6068392D" Ref="J11"  Part="1" 
+AR Path="/6069B135/6068392D" Ref="J12"  Part="1" 
+F 0 "J12" H 5557 4367 50  0000 C CNN
 F 1 "RJ10" H 5557 4276 50  0000 C CNN
 F 2 "CAN-Distributor:TE_5520257-2" V 5500 3950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5520257%7FB1%7Fpdf%7FEnglish%7FENG_CD_5520257_B1.pdf%7F5520257-2" V 5500 3950 50  0001 C CNN

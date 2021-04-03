@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 3 16
 Title "CAN Distributor"
 Date "2021-04-03"
 Rev "2.0"
@@ -37,11 +37,11 @@ NoConn ~ 5750 3300
 NoConn ~ 5750 3600
 NoConn ~ 5750 3700
 $Comp
-L Connector:RJ45_Shielded J?
+L Connector:RJ45_Shielded J2
 U 1 1 6068581B
 P 5350 3700
-AR Path="/603ADFE4/6068581B" Ref="J?"  Part="1" 
-AR Path="/603AF7FC/6068581B" Ref="J?"  Part="1" 
+AR Path="/603ADFE4/6068581B" Ref="J2"  Part="1" 
+AR Path="/603AF7FC/6068581B" Ref="J3"  Part="1" 
 AR Path="/603AF88D/6068581B" Ref="J?"  Part="1" 
 AR Path="/603AF8B1/6068581B" Ref="J?"  Part="1" 
 AR Path="/603AF8D1/6068581B" Ref="J?"  Part="1" 
@@ -50,7 +50,7 @@ AR Path="/603AFD7A/6068581B" Ref="J?"  Part="1"
 AR Path="/603AFD7C/6068581B" Ref="J?"  Part="1" 
 AR Path="/603AFD7E/6068581B" Ref="J?"  Part="1" 
 AR Path="/603AFD80/6068581B" Ref="J?"  Part="1" 
-F 0 "J?" H 5350 4400 50  0000 C CNN
+F 0 "J3" H 5350 4400 50  0000 C CNN
 F 1 "RJ45_Shielded" H 5350 4300 50  0000 C CNN
 F 2 "CAN-Distributor:RJHSE5480" V 5350 3725 50  0001 C CNN
 F 3 "https://www.farnell.com/cad/2360424.pdf" V 5350 3725 50  0001 C CNN

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 16
 Title "CAN Distributor"
-Date "2021-04-03"
-Rev "2.0"
+Date "2021-04-04"
+Rev "2.1"
 Comp ""
 Comment1 "Designed by: Erik Almbratt"
 Comment2 ""
@@ -28,26 +28,26 @@ $EndSheet
 $Comp
 L Device:R R1
 U 1 1 603B03C6
-P 6000 2850
-F 0 "R1" V 5793 2850 50  0000 C CNN
-F 1 "120" V 5884 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 5930 2850 50  0001 C CNN
-F 3 "~" H 6000 2850 50  0001 C CNN
-F 4 "~" H 6000 2850 50  0001 C CNN "Farnell"
-F 5 "~" H 6000 2850 50  0001 C CNN "MPN"
-F 6 "~" H 6000 2850 50  0001 C CNN "Manufacturer"
-	1    6000 2850
+P 7950 3950
+F 0 "R1" V 7743 3950 50  0000 C CNN
+F 1 "120" V 7834 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 7880 3950 50  0001 C CNN
+F 3 "~" H 7950 3950 50  0001 C CNN
+F 4 "~" H 7950 3950 50  0001 C CNN "Farnell"
+F 5 "~" H 7950 3950 50  0001 C CNN "MPN"
+F 6 "~" H 7950 3950 50  0001 C CNN "Manufacturer"
+	1    7950 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 5700 2850 0    50   Input ~ 0
+Text GLabel 7650 3950 0    50   Input ~ 0
 CAN_H
-Text GLabel 6300 2850 2    50   Input ~ 0
+Text GLabel 8250 3950 2    50   Input ~ 0
 CAN_L
 Wire Wire Line
-	5700 2850 5850 2850
+	7650 3950 7800 3950
 Wire Wire Line
-	6150 2850 6300 2850
-Text Notes 5250 2350 0    50   ~ 0
+	8100 3950 8250 3950
+Text Notes 7200 3450 0    50   ~ 0
 Only populated at the end nodes
 $Sheet
 S 1700 3050 600  400 
@@ -55,111 +55,45 @@ U 60682F6E
 F0 "RJ10_CAN_1" 50
 F1 "RJ10_CAN.sch" 50
 $EndSheet
-Text Notes 5250 3500 0    79   ~ 0
+Text Notes 7250 4600 0    79   ~ 0
 Power In
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 60687EFE
-P 5450 4100
-F 0 "J1" H 5368 4317 50  0000 C CNN
-F 1 "2p Terminal Block" H 5368 4226 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5450 4100 50  0001 C CNN
-F 3 "~" H 5450 4100 50  0001 C CNN
-F 4 "~" H 5450 4100 50  0001 C CNN "Farnell"
-F 5 "~" H 5450 4100 50  0001 C CNN "MPN"
-F 6 "~" H 5450 4100 50  0001 C CNN "Manufacturer"
-	1    5450 4100
+P 7450 5200
+F 0 "J1" H 7368 5417 50  0000 C CNN
+F 1 "2p Terminal Block" H 7368 5326 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7450 5200 50  0001 C CNN
+F 3 "~" H 7450 5200 50  0001 C CNN
+F 4 "~" H 7450 5200 50  0001 C CNN "Farnell"
+F 5 "~" H 7450 5200 50  0001 C CNN "MPN"
+F 6 "~" H 7450 5200 50  0001 C CNN "Manufacturer"
+	1    7450 5200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6000 4100 2    50   Input ~ 0
-CAN_GND
 Wire Wire Line
-	5650 4100 6000 4100
-Text GLabel 7050 4500 2    50   Input ~ 0
-CAN_V+
-Wire Wire Line
-	7050 4500 6850 4500
+	7650 5200 8000 5200
 $Comp
 L Device:Fuse F1
 U 1 1 60688CEC
-P 6050 4500
-F 0 "F1" V 6337 4500 50  0000 C CNN
-F 1 "2.5A" V 6246 4500 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 5980 4500 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2343287.pdf" H 6050 4500 50  0001 C CNN
-F 4 "0031.8201" V 6050 4500 50  0001 C CNN "MPN"
-F 5 "SCHURTER" V 6050 4500 50  0001 C CNN "Manufacturer"
-F 6 "5x20 mm" V 6155 4500 50  0000 C CNN "Description"
-F 7 "1162740" H 6050 4500 50  0001 C CNN "Farnell"
-	1    6050 4500
+P 8050 5600
+F 0 "F1" V 8337 5600 50  0000 C CNN
+F 1 "2.5A" V 8246 5600 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 7980 5600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2343287.pdf" H 8050 5600 50  0001 C CNN
+F 4 "0031.8201" V 8050 5600 50  0001 C CNN "MPN"
+F 5 "SCHURTER" V 8050 5600 50  0001 C CNN "Manufacturer"
+F 6 "5x20 mm" V 8155 5600 50  0000 C CNN "Description"
+F 7 "1162740" H 8050 5600 50  0001 C CNN "Farnell"
+	1    8050 5600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5650 4200 5750 4200
+	7650 5300 7750 5300
 Wire Wire Line
-	5750 4200 5750 4500
+	7750 5300 7750 5600
 Wire Wire Line
-	5750 4500 5900 4500
-$Comp
-L Device:D_Schottky D1
-U 1 1 6068A695
-P 6550 4500
-F 0 "D1" H 6550 4283 50  0000 C CNN
-F 1 "D_Schottky" H 6550 4374 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 6550 4500 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/S310FA-ON-Semiconductor-datasheet-137362515.pdf" H 6550 4500 50  0001 C CNN
-F 4 "S310FA" H 6550 4374 50  0000 C CNN "MPN"
-F 5 "ON Semiconductor" H 6550 4500 50  0001 C CNN "Manufacturer"
-F 6 "" H 6550 4500 50  0001 C CNN "Description"
-F 7 "2822559" H 6550 4500 50  0001 C CNN "Farnell"
-	1    6550 4500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 4500 6400 4500
-$Comp
-L Device:LED D2
-U 1 1 6068B76E
-P 7950 5050
-F 0 "D2" H 7943 4705 50  0000 C CNN
-F 1 "PWR_LED" H 7943 4796 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 7950 5050 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/SML-D12P8WT86-Rohm-datasheet-142144708.pdf" H 7950 5050 50  0001 C CNN
-F 4 "SML-D12P8WT86" H 7943 4887 50  0000 C CNN "MPN"
-F 5 "ROHM" H 7950 5050 50  0001 C CNN "Manufacturer"
-F 6 "2687486" H 7950 5050 50  0001 C CNN "Farnell"
-	1    7950 5050
-	-1   0    0    1   
-$EndComp
-Connection ~ 6850 4500
-Wire Wire Line
-	6850 4500 6700 4500
-Text GLabel 8350 5050 2    50   Input ~ 0
-CAN_GND
-Wire Wire Line
-	8350 5050 8100 5050
-$Comp
-L Driver_LED:CL220K4-G U1
-U 1 1 6068FB57
-P 7250 5050
-F 0 "U1" V 7517 5050 50  0000 C CNN
-F 1 "CL25N8-G" V 7426 5050 50  0001 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 7400 5000 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/1849619.pdf" H 7260 5050 50  0001 C CNN
-F 4 "CL25N8-G" V 7426 5050 50  0000 C CNN "MPN"
-F 5 "Microchip" H 7250 5050 50  0001 C CNN "Manufacturer"
-F 6 "2448489" H 7250 5050 50  0001 C CNN "Farnell"
-	1    7250 5050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6850 4500 6850 5050
-Wire Wire Line
-	7050 5050 6850 5050
-Text Notes 5250 3700 0    50   ~ 0
-Fused and reverse polarity protected. Voltage drop of 0.85 V. \nSuggested input voltage up to 50VDC.
-Wire Wire Line
-	7450 5050 7800 5050
+	7750 5600 7900 5600
 $Sheet
 S 1700 3800 600  400 
 U 6069ABE0
@@ -209,29 +143,159 @@ F0 "RJ10_CAN_9" 50
 F1 "RJ10_CAN.sch" 50
 $EndSheet
 $Sheet
-S 3900 5300 600  400 
-U 606A6B6A
-F0 "TP_CAN_1" 50
-F1 "TP_CAN9.sch" 50
-$EndSheet
-$Sheet
 S 3900 6050 600  400 
 U 606A6E99
 F0 "TP_CAN_2" 50
-F1 "TP_CAN9.sch" 50
+F1 "TP_CAN.sch" 50
 $EndSheet
 $Sheet
 S 4850 5300 600  400 
 U 606A6FCD
 F0 "TP_CAN_3" 50
-F1 "TP_CAN9.sch" 50
+F1 "TP_CAN.sch" 50
 $EndSheet
-Text Notes 5250 2200 0    79   ~ 0
+Text Notes 7200 3300 0    79   ~ 0
 Termination resistor
 $Sheet
 S 2650 6050 600  400 
 U 606AA4F3
 F0 "RJ10_CAN_10" 50
 F1 "RJ10_CAN.sch" 50
+$EndSheet
+Wire Wire Line
+	9550 2850 9900 2850
+Wire Wire Line
+	9550 2750 9550 2850
+Wire Wire Line
+	9550 1950 9900 1950
+Wire Wire Line
+	9550 2050 9550 1950
+Wire Wire Line
+	9700 2400 9900 2400
+Text GLabel 9900 2400 2    50   Input ~ 0
+CAN_GND
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 606AC8C9
+P 9550 2400
+AR Path="/603AF7FC/606AC8C9" Ref="D?"  Part="1" 
+AR Path="/606AC8C9" Ref="D3"  Part="1" 
+F 0 "D3" V 9641 2479 50  0000 L CNN
+F 1 "TVS" V 9550 2479 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 2400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2028697.pdf" H 9400 2400 50  0001 C CNN
+F 4 "NUP2105LT1G" V 9459 2479 50  0000 L CNN "MPN"
+F 5 "2101833" H 9550 2400 50  0001 C CNN "Farnell"
+F 6 "ON Semiconductor" H 9550 2400 50  0001 C CNN "Manufacturer"
+	1    9550 2400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8200 2400 2    50   Input ~ 0
+CAN_GND
+$Comp
+L CAN-Distributor:Bourns_2038_GDT GD?
+U 1 1 606AC8D5
+P 7800 2400
+AR Path="/603AF7FC/606AC8D5" Ref="GD?"  Part="1" 
+AR Path="/606AC8D5" Ref="GD1"  Part="1" 
+F 0 "GD1" H 7969 2309 50  0000 L CNN
+F 1 "GDT" H 7969 2400 50  0000 L CNN
+F 2 "CAN-Distributor:Bourns_Inc.-2036-07-SM-RPLF-MFG" V 7800 2400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/2038-15-SM-RPLF-Bourns-datasheet-15373353.pdf" V 7800 2400 50  0001 C CNN
+F 4 "2036-07-SM" H 7969 2491 50  0000 L CNN "MPN"
+F 5 "1846857" H 7800 2400 50  0001 C CNN "Farnell"
+F 6 "Bourns" H 7800 2400 50  0001 C CNN "Manufacturer"
+	1    7800 2400
+	-1   0    0    1   
+$EndComp
+Text GLabel 9900 1950 2    50   Input ~ 0
+CAN_L
+Text GLabel 9900 2850 2    50   Input ~ 0
+CAN_H
+Wire Wire Line
+	9450 6150 9800 6150
+Text Notes 7250 4800 0    50   ~ 0
+Fused and reverse polarity protected. Voltage drop of 0.85 V. \nSuggested input voltage up to 50VDC.
+Wire Wire Line
+	9050 6150 8850 6150
+Wire Wire Line
+	8850 5600 8850 6150
+$Comp
+L Driver_LED:CL220K4-G U1
+U 1 1 6068FB57
+P 9250 6150
+F 0 "U1" V 9517 6150 50  0000 C CNN
+F 1 "CL25N8-G" V 9426 6150 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 9400 6100 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1849619.pdf" H 9260 6150 50  0001 C CNN
+F 4 "CL25N8-G" V 9426 6150 50  0000 C CNN "MPN"
+F 5 "Microchip" H 9250 6150 50  0001 C CNN "Manufacturer"
+F 6 "2448489" H 9250 6150 50  0001 C CNN "Farnell"
+	1    9250 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 6150 10100 6150
+Text GLabel 10350 6150 2    50   Input ~ 0
+CAN_GND
+Wire Wire Line
+	8850 5600 8700 5600
+Connection ~ 8850 5600
+$Comp
+L Device:LED D2
+U 1 1 6068B76E
+P 9950 6150
+F 0 "D2" H 9943 5805 50  0000 C CNN
+F 1 "PWR_LED" H 9943 5896 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9950 6150 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/SML-D12P8WT86-Rohm-datasheet-142144708.pdf" H 9950 6150 50  0001 C CNN
+F 4 "SML-D12P8WT86" H 9943 5987 50  0000 C CNN "MPN"
+F 5 "ROHM" H 9950 6150 50  0001 C CNN "Manufacturer"
+F 6 "2687486" H 9950 6150 50  0001 C CNN "Farnell"
+	1    9950 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 5600 8400 5600
+$Comp
+L Device:D_Schottky D1
+U 1 1 6068A695
+P 8550 5600
+F 0 "D1" H 8550 5383 50  0000 C CNN
+F 1 "D_Schottky" H 8550 5474 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8550 5600 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/S310FA-ON-Semiconductor-datasheet-137362515.pdf" H 8550 5600 50  0001 C CNN
+F 4 "S310FA" H 8550 5474 50  0000 C CNN "MPN"
+F 5 "ON Semiconductor" H 8550 5600 50  0001 C CNN "Manufacturer"
+F 6 "" H 8550 5600 50  0001 C CNN "Description"
+F 7 "2822559" H 8550 5600 50  0001 C CNN "Farnell"
+	1    8550 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 5600 8850 5600
+Text GLabel 9050 5600 2    50   Input ~ 0
+CAN_V+
+Text GLabel 8000 5200 2    50   Input ~ 0
+CAN_GND
+Text Notes 7200 1700 0    79   ~ 0
+Protection
+Wire Wire Line
+	9550 1950 7800 1950
+Connection ~ 9550 1950
+Wire Wire Line
+	7800 2850 9550 2850
+Connection ~ 9550 2850
+Wire Wire Line
+	8050 2400 8200 2400
+Wire Wire Line
+	7800 2650 7800 2850
+Wire Wire Line
+	7800 2150 7800 1950
+$Sheet
+S 3900 5300 600  400 
+U 606A6B6A
+F0 "TP_CAN_1" 50
+F1 "TP_CAN.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 16
 Title "CAN Distributor"
-Date "2021-04-03"
-Rev "2.0"
+Date "2021-04-04"
+Rev "2.1"
 Comp ""
 Comment1 "Designed by: Erik Almbratt"
 Comment2 ""
@@ -21,7 +21,7 @@ AR Path="/606A6B6A/606A774B" Ref="J13"  Part="1"
 AR Path="/606A6E99/606A774B" Ref="J14"  Part="1" 
 AR Path="/606A6FCD/606A774B" Ref="J15"  Part="1" 
 AR Path="/606A70AE/606A774B" Ref="J16"  Part="1" 
-F 0 "J16" H 5218 3175 50  0000 C CNN
+F 0 "J13" H 5218 3175 50  0000 C CNN
 F 1 "4p Terminal Block" H 5218 3266 50  0000 C CNN
 F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 5300 3600 50  0001 C CNN
 F 3 "~" H 5300 3600 50  0001 C CNN

@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Bourns_2038_GDT
+#
+DEF Bourns_2038_GDT GD 0 40 Y Y 1 F N
+F0 "GD" 200 0 50 V V C CNN
+F1 "Bourns_2038_GDT" 300 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 141 1 1 0 N
+C 75 0 5 1 1 0 N
+C 75 0 5 1 1 0 N
+C 75 0 11 1 1 0 N
+C 80 0 5 1 1 0 N
+P 2 1 1 0 -150 0 -50 0 N
+P 2 1 1 0 0 -150 0 -50 N
+P 2 1 1 0 0 -50 -50 -100 N
+P 2 1 1 0 0 -50 50 -100 N
+P 2 1 1 0 0 50 -50 100 N
+P 2 1 1 0 0 50 50 100 N
+P 2 1 1 0 0 150 0 50 N
+P 3 1 1 0 -100 50 -50 0 -100 -50 N
+X ~ 1 0 -250 100 U 50 50 1 1 P
+X ~ 2 -250 0 100 R 50 50 1 1 P
+X ~ 3 0 250 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

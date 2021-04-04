@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 16
+Sheet 15 16
 Title "CAN Distributor"
-Date "2021-04-03"
-Rev "2.0"
+Date "2021-04-04"
+Rev "2.1"
 Comp ""
 Comment1 "Designed by: Erik Almbratt"
 Comment2 ""
@@ -42,13 +42,13 @@ AR Path="/6069B12F/6068392D" Ref="J9"  Part="1"
 AR Path="/6069B131/6068392D" Ref="J10"  Part="1" 
 AR Path="/6069B133/6068392D" Ref="J11"  Part="1" 
 AR Path="/6069B135/6068392D" Ref="J12"  Part="1" 
-AR Path="/606AA4F3/6068392D" Ref="J?"  Part="1" 
-F 0 "J12" H 5557 4367 50  0000 C CNN
-F 1 "RJ10" H 5557 4276 50  0000 C CNN
+AR Path="/606AA4F3/6068392D" Ref="J16"  Part="1" 
+F 0 "J16" H 5500 4450 50  0000 C CNN
+F 1 "RJ10" H 5500 4350 50  0000 C CNN
 F 2 "CAN-Distributor:TE_5520257-2" V 5500 3950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5520257%7FB1%7Fpdf%7FEnglish%7FENG_CD_5520257_B1.pdf%7F5520257-2" V 5500 3950 50  0001 C CNN
 F 4 "1284339" H 5500 3900 50  0001 C CNN "Farnell"
-F 5 "5520257-2" H 5500 3900 50  0001 C CNN "MPN"
+F 5 "5520257-2" H 5500 4250 50  0000 C CNN "MPN"
 F 6 "TE Connectivity" H 5500 3900 50  0001 C CNN "Manufacturer"
 	1    5500 3900
 	1    0    0    -1  

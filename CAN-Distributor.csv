@@ -4,7 +4,7 @@ D2 ,1,"PWR_LED","Diode_SMD:D_0603_1608Metric","https://datasheet.octopart.com/SM
 D3 ,1,"TVS","Package_TO_SOT_SMD:SOT-23","http://www.farnell.com/datasheets/2028697.pdf","2101833","NUP2105LT1G","ON Semiconductor",""
 F1 ,1,"2.5A","Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open","http://www.farnell.com/datasheets/2343287.pdf","1162740","0031.8201","SCHURTER","5x20 mm"
 GD1 ,1,"GDT","CAN-Distributor:Bourns_Inc.-2036-07-SM-RPLF-MFG","https://datasheet.octopart.com/2038-15-SM-RPLF-Bourns-datasheet-15373353.pdf","1846857","2036-07-SM","Bourns",""
-J1 ,1,"2p Terminal Block","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~","~","~","~",""
+J1 ,1,"3p Terminal Block","TerminalBlock:TerminalBlock_bornier-3_P5.08mm","~","~","~","~",""
 J13 J14 J15 ,3,"4p Terminal Block","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal","~","~","~","~",""
 J2 J3 ,2,"RJ45_Shielded","CAN-Distributor:RJHSE5480","https://www.farnell.com/cad/2360424.pdf","3367703","RJHSE5480","AMPHENOL ICC",""
 J4 J5 J6 J7 J8 J9 J10 J11 J12 J16 ,10,"RJ10","CAN-Distributor:TE_5520257-2","https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5520257%7FB1%7Fpdf%7FEnglish%7FENG_CD_5520257_B1.pdf%7F5520257-2","1284339","5520257-2","TE Connectivity",""

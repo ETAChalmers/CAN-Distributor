@@ -58,12 +58,12 @@ $EndSheet
 Text Notes 7250 4600 0    79   ~ 0
 Power In
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x03 J1
 U 1 1 60687EFE
 P 7450 5200
-F 0 "J1" H 7368 5417 50  0000 C CNN
-F 1 "2p Terminal Block" H 7368 5326 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7450 5200 50  0001 C CNN
+F 0 "J1" H 7350 5500 50  0000 C CNN
+F 1 "3p Terminal Block" H 7350 5400 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 7450 5200 50  0001 C CNN
 F 3 "~" H 7450 5200 50  0001 C CNN
 F 4 "~" H 7450 5200 50  0001 C CNN "Farnell"
 F 5 "~" H 7450 5200 50  0001 C CNN "MPN"
@@ -72,7 +72,7 @@ F 6 "~" H 7450 5200 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 5200 8000 5200
+	7650 5200 7900 5200
 $Comp
 L Device:Fuse F1
 U 1 1 60688CEC
@@ -276,7 +276,7 @@ Wire Wire Line
 	9050 5600 8850 5600
 Text GLabel 9050 5600 2    50   Input ~ 0
 CAN_V+
-Text GLabel 8000 5200 2    50   Input ~ 0
+Text GLabel 8000 5150 2    50   Input ~ 0
 CAN_GND
 Text Notes 7200 1700 0    79   ~ 0
 Protection
@@ -298,4 +298,13 @@ U 606A6B6A
 F0 "TP_CAN_1" 50
 F1 "TP_CAN.sch" 50
 $EndSheet
+Wire Wire Line
+	7650 5100 7900 5100
+Wire Wire Line
+	7900 5100 7900 5150
+Wire Wire Line
+	7900 5150 8000 5150
+Connection ~ 7900 5150
+Wire Wire Line
+	7900 5150 7900 5200
 $EndSCHEMATC

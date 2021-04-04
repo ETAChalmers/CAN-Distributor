@@ -1,7 +1,9 @@
 Reference, Quantity, Value, Footprint, Datasheet, Farnell, MPN, Manufacturer, Description
 D1 ,1,"D_Schottky","Diode_SMD:D_SOD-123F","https://datasheet.octopart.com/S310FA-ON-Semiconductor-datasheet-137362515.pdf","2822559","S310FA","ON Semiconductor",""
 D2 ,1,"PWR_LED","Diode_SMD:D_0603_1608Metric","https://datasheet.octopart.com/SML-D12P8WT86-Rohm-datasheet-142144708.pdf","2687486","SML-D12P8WT86","ROHM",""
+D3 ,1,"TVS","Package_TO_SOT_SMD:SOT-23","http://www.farnell.com/datasheets/2028697.pdf","2101833","NUP2105LT1G","ON Semiconductor",""
 F1 ,1,"2.5A","Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open","http://www.farnell.com/datasheets/2343287.pdf","1162740","0031.8201","SCHURTER","5x20 mm"
+GD1 ,1,"GDT","CAN-Distributor:Bourns_Inc.-2036-07-SM-RPLF-MFG","https://datasheet.octopart.com/2038-15-SM-RPLF-Bourns-datasheet-15373353.pdf","1846857","2036-07-SM","Bourns",""
 J1 ,1,"2p Terminal Block","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~","~","~","~",""
 J13 J14 J15 ,3,"4p Terminal Block","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal","~","~","~","~",""
 J2 J3 ,2,"RJ45_Shielded","CAN-Distributor:RJHSE5480","https://www.farnell.com/cad/2360424.pdf","3367703","RJHSE5480","AMPHENOL ICC",""
